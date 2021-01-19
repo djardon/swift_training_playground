@@ -321,9 +321,9 @@ let subjects: [Subject] = [Subject(name: "Kotlin",
 // Students subjects count
 // Student subject name
 print("************** TASK 1 **************")
-students.forEach{ students in
+students.forEach{ student in
     // Get only valid names, not nil
-    guard let studentsName = students.name else {
+    guard let studentsName = student.name else {
         return
     }
     // Print student name
